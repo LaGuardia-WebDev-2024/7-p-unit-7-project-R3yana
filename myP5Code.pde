@@ -4,7 +4,10 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-var fireworkX = 20;
+var fireworkX =110;
+var circleSize = 50; 
+var x = 200;
+var y = 100;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -14,12 +17,43 @@ draw = function(){
    if(mousePressed){
     showXYPositions();
     
+    
   }
   
-  //🎯Animation Code Goes Here
-  rect(fireworkX, 15, 10, 10);
+  fill(0,0,0);
+  textSize(20);
+  text("1.Do my classes for realestate",100,70);
+  text("2.get better at sigh reading",100,100);
+  text("3.Do my work in a timly manner",100,130);
+  text("2025 GOALS",100,50)
   
-  fireworkX = fireworkX + 1;
+  //🎯Animation Code Goes Here
+  ellipse(fireworkX, 50,fireworkX+50, 50); 
+ 
+ // circle
+ fill( 255, 192, 203);
+  ellipse(200, 298, circleSize, circleSize);
+  
+  //lines moving
+  stroke(255,255,255)
+  
+    
+  fireworkX = fireworkX + 5;
+circleSize=circleSize+1;
+
+
+rect(x+50,y+50,100,100);
+x=mouseX
+y=mouseY
+
+
+
+
+
+
+
+
+
 
 }
 

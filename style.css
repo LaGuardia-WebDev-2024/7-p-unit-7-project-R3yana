@@ -4,9 +4,8 @@ body {
   color: white;
 }
 
-
 #myCanvas {
-  background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://img.freepik.com/free-vector/watercolor-sugar-cotton-clouds-background_52683-80661.jpg?semt=ais_hybrid");
   background-size: 400px;
   border-radius: 30px;
   border: 1px solid rgb(255,245,227);
